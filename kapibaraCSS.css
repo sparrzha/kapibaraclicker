@@ -1,0 +1,233 @@
+/* General button style */
+*{
+  margin: 0;
+  padding: 0;
+}
+#kapibara_btn {
+    border: none;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    
+
+  }
+
+
+  #kapibara_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+}
+    #kapibara_btn:active{
+        top: 5px;
+}
+
+#kapibara_btn:hover{
+  cursor: pointer;
+}
+#score{
+  text-align: center;
+}
+
+body{
+  background-color: rgb(210, 232, 241);
+}
+
+header{
+  height: 98px;
+  background-repeat: no-repeat;
+  background-image: url("images/header.png");
+  background-size: 100%;
+  border-bottom: 4px solid rgb(25, 65, 70);
+  margin-bottom: 5px;
+  text-align: center;
+  line-height: 100px;
+  
+}
+
+footer{
+  height: 50px;
+  border-top: 4px solid rgb(39, 56, 61);
+  margin-top: 5px;
+  height: 70px;
+  background-color: rgb(163, 191, 207);
+  color: rgb(41, 63, 70);
+}
+
+#button_and_score{
+  color: rgb(41, 63, 70);
+  border: 4px solid rgb(184, 211, 222);
+  background-color: rgb(199, 224, 234);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+}
+
+#main_div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+#cool_things{
+  color: rgb(41, 63, 70);
+  border: 4px solid rgb(184, 211, 222);
+  background-color: rgb(199, 224, 234);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+#improve{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 25%;
+
+}
+
+#improvements{
+  color: rgb(41, 63, 70);
+  border: 4px solid rgb(184, 211, 222);
+  background-color: rgb(199, 224, 234);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+
+}
+
+#procrutka{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: scroll;
+  height: 400px;
+
+}
+
+#eat_kapibara{
+  background-image: url("images/eat kapibara.png");
+  height: 100px;
+  width: 290px;
+}
+
+#buy_kapibara{
+  background-image: url("images/buy kapibara.png");
+  height: 100px;
+  width: 290px;
+}
+
+#skins{
+  background-image: url("images/skins kapibara.png");
+  height: 100px;
+  width: 290px;
+}
+
+.grass{
+  background-image: url("images/1 eat.png");
+  height: 100px;
+  width: 290px;
+}
+
+.seed{
+  background-image: url("images/2 eat.png");
+  height: 100px;
+  width: 290px;
+}
+
+.cabbage{
+  background-image: url("images/3 eat.png");
+  height: 100px;
+  width: 290px;
+}
+
+.seaweed{
+  background-image: url("images/4 eat.png");
+  height: 100px;
+  width: 290px;
+}
+
+.eggplant{
+  background-image: url("images/5 eat.png");
+  height: 100px;
+  width: 290px;
+}
+
+.watermelon{
+  background-image: url("images/6 eat.png");
+  height: 100px;
+  width: 290px;
+}
+
+.melon{
+  background-image: url("images/7 eat.png");
+  height: 100px;
+  width: 290px;
+}
+
+.close_button{
+  background-image: url("images/close.png");
+  height: 100px;
+  width: 290px;
+}
+
+.one_kap{
+  background-image: url("images/1 kapibara.png");
+  height: 100px;
+  width: 290px;
+}
+
+.two_kap{
+  background-image: url("images/2 kapibara.png");
+  height: 100px;
+  width: 290px;
+}
+
+.three_kap{
+  background-image: url("images/3 kapibara.png");
+  height: 100px;
+  width: 290px;
+}
+
+.four_kap{
+  background-image: url("images/4 kapibara.png");
+  height: 100px;
+  width: 290px;
+}
+
+.five_kap{
+  background-image: url("images/5 kapibara.png");
+  height: 100px;
+  width: 290px;
+}
+
+.six_kap{
+  background-image: url("images/6 kapibara.png");
+  height: 100px;
+  width: 290px;
+}
+
+.seven_kap{
+  background-image: url("images/7 kapibara.png");
+  height: 100px;
+  width: 290px;
+}
